@@ -1,0 +1,268 @@
+body {
+    background-image: url("back.jpg");
+    background-size:  100vw 100vh;
+    width: 100vw;
+    overflow: hidden;
+    cursor: url('mycursor.png'), auto;
+      }
+
+/*krushna bhamare*/
+.d1{
+    position: absolute;
+    top: 200px;
+    transform: translate(-11vw);
+    animation: k1 5s 7s ease-in-out 1 forwards ;
+    cursor:cell ;
+     }
+.d2{
+    position: absolute;
+    top: 200px;
+    transform: translate(-11vw);
+    animation: k2 4s 9s ease-in-out 1 forwards ;
+    cursor:cell ;
+     }
+.d3{
+    position: absolute;
+    top: 200px;
+    transform: translate(-11vw);
+    animation: k1 4s 11s ease-in-out 1 forwards ;
+    cursor:cell ;
+     }
+.d4{
+    position: absolute;
+    top: 200px;
+    transform: translate(-11vw);
+    animation: k2 5s 12s ease-in-out 1 forwards ;
+    cursor:cell ;
+     }  
+.d5{
+    position: absolute;
+    top: 200px;
+    transform: translate(-11vw);
+    animation: k1 5s 14s ease-in-out 1 forwards ;
+    cursor:cell ;
+     }
+.d6{
+    position: absolute;
+    top: 200px;
+    transform: translate(-11vw);
+    animation: k2 4s 16s ease-in-out 1 forwards ;
+    cursor:cell ;
+     } 
+.d7{
+    position: absolute;
+    top: 200px;
+    transform: translate(-11vw);
+    animation: k1 4s 18s ease-in-out 1 forwards ;
+    cursor:cell ;
+     }
+.d8{
+    position: absolute;
+    top: 200px;
+    transform: translate(-11vw);
+    animation: k2 5s 19s ease-in-out 1 forwards ;
+    cursor:cell ;
+     }  
+.d9{
+    position: absolute;
+    top: 200px;
+    transform: translate(-11vw);
+    animation: k1 4s 20s ease-in-out 1 forwards ;
+    cursor:cell ;
+     }
+.d10{
+    position: absolute;
+    top: 200px;
+    transform: translate(-11vw);
+    animation: k2 5s 20s ease-in-out 1 forwards ;
+    cursor:cell ;
+     }      
+/*krushna bhamare*/
+@keyframes k1{
+    0%{ top: 200px ;
+        transform: translate(-11vw);}
+    25%{ top: 70px;
+        transform: translate(23vw);}
+    50%{ top: 200px;
+        transform: translate(45vw);}
+    75%{ top: 70px;
+        transform: translate(75vw);}
+    100%{ top: 200px;
+        transform: translate(110vw);}
+}     
+
+@keyframes k2{
+    0%{ top: 30px ;
+        transform: translate(-11vw);}
+    25%{ top:200px;
+        transform: translate(23vw);}
+    50%{ top: 30px;
+        transform: translate(45vw);}
+    75%{ top: 200px;
+        transform: translate(75vw);}
+    100%{ top: 30px;
+        transform: translate(110vw);}
+}     
+
+.kill{
+    
+    animation: killl ;
+}
+.kill1{
+    animation: killl ;
+}
+.kill2{
+    animation: killl ;
+}
+.kill3{
+    animation: killl ;
+}
+.kill4{
+    animation: killl ;
+}
+.kill5{
+    animation: killl ;
+}
+.kill6{
+    animation: killl ;
+}
+.kill7{
+    animation: killl ;
+}
+.kill8{
+    animation: killl ;
+}
+.kill9{
+    animation: killl ;
+}
+@keyframes killl{
+    0%{ opacity: 1;}
+    100%{  opacity: 0;}
+}
+                                            /*Live Score show*/
+.divs{
+    padding: 0;
+   text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top:2vh;
+    right:2vh ;
+    border: 3px solid black;
+    border-radius: 5px;
+    height: 15vh;
+    width: 7vw;
+    opacity: 0;
+    animation: lastsb 19s 6s   ;
+    
+}
+@keyframes lastsb{
+    0%{opacity: 0;}
+    7%{opacity: 1;}
+    95%{opacity: 1;}
+    100%{opacity: 0;}
+}
+/*krushna bhamare*/
+.divs p {
+    font-size: 20px;
+}
+                                                         /*Game over box*/
+.over{
+    height: 30vh;
+    width: 30vw;
+    text-align: center;
+    font-size: 50px;
+    border: 4px solid black;
+    position: relative;
+    top: 27vh;
+    left: 0vw;
+    background-color: rgb(75, 71, 71);
+    color: white;
+    border-radius: 5px;
+    opacity: 0;
+    animation: lastov 1s 25s forwards  ;
+    
+
+}
+.lastdiv{
+    padding: 1vh 3vh ;
+   position: absolute;
+   top: 60%;
+   left: 35%;
+   height: 8vh;
+   display: flex;
+   border: 3px solid rgb(255, 255, 255);
+   border-radius: 5px;
+   
+}
+.divide{
+    margin: 3px;
+}
+
+@keyframes lastov{
+    0%{opacity: 0;
+        left: 0vw;}
+    10%{opacity: 0;
+        left: 33vw;}
+    100%{opacity: 1;
+        left: 33vw;}
+}
+                                 /*game start timer */
+.x1{
+font-size: 8vh;
+position: absolute;
+top: 10vh;
+left: 48vw;
+opacity: 0;
+animation: time1 2s 1s;
+}
+@keyframes time1{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+.x2{
+    font-size: 8vh;
+    position: absolute;
+    top: 10vh;
+    left: 48vw;
+    opacity: 0;
+    animation: time1 2s 3s;
+    }
+    @keyframes time1{
+        0%{opacity: 0;}
+        50%{opacity: 1;}
+        100%{opacity: 0;}
+    }
+.x3{
+font-size: 8vh;
+position: absolute;
+top: 10vh;
+left: 48vw;
+opacity: 0;
+animation: time1 2s 5s;
+}
+@keyframes time1{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+                                    /* dog anime */
+.dogbox{
+    position: relative;
+    height: 80px;
+    top:59vh;
+    left: 40vw;
+    overflow: hidden;
+}
+.dog1{ position: absolute;
+    top:11vh;}
+.dog{
+    position: absolute;
+    top:11vh;
+    animation: dogi 1.5s;
+}
+@keyframes dogi{
+    0%{ top:11vh;}
+    50%{ top:0vh;}
+    100%{ top:11vh;}
+}
